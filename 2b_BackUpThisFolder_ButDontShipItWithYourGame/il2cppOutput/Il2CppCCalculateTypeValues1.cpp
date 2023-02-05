@@ -28786,6 +28786,15 @@ struct CarouselView_t30024B0595E71FDDA996B4F2F0E1D1EFBE7AF5BF  : public MonoBeha
 	float ____scrollVal_9;
 };
 
+// CentreOfMass
+struct CentreOfMass_t812F37D46871306EA70EAD3154E84E83B79D6964  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// UnityEngine.Transform CentreOfMass::_centreOfMass
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____centreOfMass_4;
+	// UnityEngine.Rigidbody CentreOfMass::_rigidbody
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ____rigidbody_5;
+};
+
 // CharacterCameraConstraint
 struct CharacterCameraConstraint_t008B5D5E6BD8357E065A3B5A2401157E3D445C62  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -28854,6 +28863,11 @@ struct ChatController_t21BE953E1D5ADF0BA9F3B03C205203CADDC64C15  : public MonoBe
 	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___ChatDisplayOutput_5;
 	// UnityEngine.UI.Scrollbar ChatController::ChatScrollbar
 	Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3* ___ChatScrollbar_6;
+};
+
+// Clank
+struct Clank_tADB72C097B20EA02810874A2D57FBB75B1BB9309  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
 };
 
 // Oculus.Interaction.Samples.ColorChanger
@@ -29622,11 +29636,6 @@ struct HideHandVisualOnGrab_t226107CA53BBF147A33CD933ABEBE8BDA3C98F37  : public 
 	RuntimeObject* ___HandVisual_6;
 };
 
-// Highlight
-struct Highlight_tBC5A7668BF1BFEC2E678EB3B06A9415BA1158008  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-};
-
 // Oculus.Platform.Samples.VrBoardGame.IAPManager
 struct IAPManager_t1BC52798D66C79698EA5E9DB930B62D0BF321060  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -29673,11 +29682,6 @@ struct Interactable_tC2DBF86B740EB02367138A8BCF634242CA3B93D2  : public MonoBeha
 
 // OculusSampleFramework.InteractableRegistry
 struct InteractableRegistry_t2485FBE524F01DA73C3C8E5A8569A8A1FEC4836A  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-};
-
-// InteractableSound
-struct InteractableSound_t86D484AC60419B6CD301A12DE64BC5D2068BD8D7  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 };
 
@@ -47512,6 +47516,10 @@ struct CanvasMeshRenderer_t9A3BB36C15352BA3F71071BDEEB390B849FB6419_StaticFields
 
 // Oculus.Interaction.Samples.CarouselView
 
+// CentreOfMass
+
+// CentreOfMass
+
 // CharacterCameraConstraint
 
 // CharacterCameraConstraint
@@ -47527,6 +47535,10 @@ struct CanvasMeshRenderer_t9A3BB36C15352BA3F71071BDEEB390B849FB6419_StaticFields
 // ChatController
 
 // ChatController
+
+// Clank
+
+// Clank
 
 // Oculus.Interaction.Samples.ColorChanger
 
@@ -47760,10 +47772,6 @@ struct HandsManager_t0737DB8A771E2BC516413E349E0CDBBC8E5189C7_StaticFields
 
 // Oculus.Interaction.Samples.HideHandVisualOnGrab
 
-// Highlight
-
-// Highlight
-
 // Oculus.Platform.Samples.VrBoardGame.IAPManager
 
 // Oculus.Platform.Samples.VrBoardGame.IAPManager
@@ -47793,10 +47801,6 @@ struct InteractableRegistry_t2485FBE524F01DA73C3C8E5A8569A8A1FEC4836A_StaticFiel
 };
 
 // OculusSampleFramework.InteractableRegistry
-
-// InteractableSound
-
-// InteractableSound
 
 // OculusSampleFramework.InteractableTool
 
@@ -51843,9 +51847,9 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize6594 = { sizeof(U3CPrivateIm
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6595;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize6595 = { sizeof(U3CModuleU3E_tBB65183F1134474D09FF49B95625D25472B9BA8B), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6596;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize6596 = { sizeof(Highlight_tBC5A7668BF1BFEC2E678EB3B06A9415BA1158008), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize6596 = { sizeof(CentreOfMass_t812F37D46871306EA70EAD3154E84E83B79D6964), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6597;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize6597 = { sizeof(InteractableSound_t86D484AC60419B6CD301A12DE64BC5D2068BD8D7), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize6597 = { sizeof(Clank_tADB72C097B20EA02810874A2D57FBB75B1BB9309), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6598;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize6598 = { sizeof(OnClick_tE915BFC88D1C91D68F96A97D675ECCCF91B8D46A), sizeof(Il2CppMethodPointer), 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6599;

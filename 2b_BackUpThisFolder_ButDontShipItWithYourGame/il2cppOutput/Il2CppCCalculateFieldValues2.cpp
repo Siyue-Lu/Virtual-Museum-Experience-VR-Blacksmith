@@ -18756,6 +18756,15 @@ struct CarouselView_t30024B0595E71FDDA996B4F2F0E1D1EFBE7AF5BF  : public MonoBeha
 	float ____scrollVal_9;
 };
 
+// CentreOfMass
+struct CentreOfMass_t812F37D46871306EA70EAD3154E84E83B79D6964  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// UnityEngine.Transform CentreOfMass::_centreOfMass
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____centreOfMass_4;
+	// UnityEngine.Rigidbody CentreOfMass::_rigidbody
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ____rigidbody_5;
+};
+
 // CharacterCameraConstraint
 struct CharacterCameraConstraint_t008B5D5E6BD8357E065A3B5A2401157E3D445C62  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -31802,6 +31811,10 @@ struct CanvasMeshRenderer_t9A3BB36C15352BA3F71071BDEEB390B849FB6419_StaticFields
 
 // Oculus.Interaction.Samples.CarouselView
 
+// CentreOfMass
+
+// CentreOfMass
+
 // CharacterCameraConstraint
 
 // CharacterCameraConstraint
@@ -34622,6 +34635,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6593[3] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6594[1] = 
 {
 	static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t1828878FB092BA210A76238953E3118A4B8005CC_StaticFields, ___532EAABD9574880DBF76B9B8CC00832C20A6EC113D682299550D7A6E0F345E25_0)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6596[2] = 
+{
+	static_cast<int32_t>(offsetof(CentreOfMass_t812F37D46871306EA70EAD3154E84E83B79D6964, ____centreOfMass_4)),static_cast<int32_t>(offsetof(CentreOfMass_t812F37D46871306EA70EAD3154E84E83B79D6964, ____rigidbody_5)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6602[1] = 
 {
 	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass41_0_tD03998B72130E379210125F837D005B365C1708B, ___handler_0)),};
